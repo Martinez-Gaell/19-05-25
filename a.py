@@ -1,25 +1,4 @@
-[9:02 AM, 5/14/2025] Gael: import tkinter as tk
-def  e():
- nombre = etiqueta_nombre.get()
- num = etiqueta_num.get()
- calif = etiqueta_calif.get()
- sexo = etiqueta_sexo.get()
- etiqueta_resultado.config(ventana,text="los datos del estudiante son {estudiante}, {num}, {calif}, {sexo}")
-ventana = tk.Tk ()
-ventana.title("diccionario")
-ventana.geometry("900x400")
-etiqueta = tk.Label(ventana, text="introduszca el numero de estudiante")
-etiqueta.pack()
-etiqueta_nombre = tk.Label(ventana, text="introduzca el nombre")
-etiqueta_nombre.pack()
-entrada_nombre = tk.Entry(ventana)
-entrada_nombre.get()
-etiqueta_num = tk.Label(ventana, text="introduzca el numero de estudiante")
-etiqueta_num.pack()
-entrada_num = tk.Entry(ventana)
-entrada_num.get()
-etiqueta_calif = tk.Label(ventana, text="introduzca la ca…
-[8:50 AM, 5/19/2025] Gael: import tkinter as tk
+import tkinter as tk
 from tkinter import messagebox
 from tkinter import ttk
 
